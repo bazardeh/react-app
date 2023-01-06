@@ -1,13 +1,12 @@
 import React, { useRef, useState } from "react";
 
 function MyCalc() {
-  const [val, setVal] = useState({0});
+  const [val, setVal] = useState({});
 
   const valueOneRef = useRef();
   const valueTwoRef = useRef();
 
-   
-     const calcAndResult = () => {
+ const calcAndResult = () => {
     setVal(valueOneRef.current.value + valueTwoRef.current.value);
   };
 

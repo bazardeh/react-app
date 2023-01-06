@@ -6,7 +6,7 @@ function MyCalc() {
   const valueOneRef = useRef();
   const valueTwoRef = useRef();
 
- const calcAndResult = () => {
+  const calcAndResult = () => {
     setVal(valueOneRef.current.value + valueTwoRef.current.value);
   };
 

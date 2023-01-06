@@ -4,14 +4,14 @@ import { Counter } from "./Counter";
 import ProductList from "./components/product-container";
 
 function App() {
-  console.log("🚀 ~ file: index.js:11 ~ App", App);
+  // console.log("🚀 ~ file: index.js:11 ~ App", App);
   return (
     <>
       <ProductList />
       <hr />
       <Counter />
-
-      <Counter value={10} />
+      <hr />
+      <Counter value={20} />
     </>
 
     // <div className="App">

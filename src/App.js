@@ -2,11 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Counter } from "./Counter";
 import ProductList from "./components/product-container";
+import MyCalc from "./components/my-calc/MyCalc";
 
 function App() {
   // console.log("🚀 ~ file: index.js:11 ~ App", App);
   return (
     <>
+      <MyCalc />
+      <hr />
       <ProductList />
       <hr />
       <Counter />
